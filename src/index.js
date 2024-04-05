@@ -1,5 +1,6 @@
 import { displayHome } from "./home";
 import { displayMenu } from "./menu";
+import { displayAbout } from "./about";
 
 const homeBtn = document.querySelector('#home');
 const menuBtn = document.querySelector('#menu');
@@ -15,3 +16,6 @@ menuBtn.addEventListener('click', () => {
     displayMenu();
 })
 
+aboutBtn.addEventListener('click', () => {
+    displayAbout();
+})

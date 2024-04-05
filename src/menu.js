@@ -40,8 +40,8 @@ export function displayMenu() {
         let dish = document.createElement('div');
         dish.setAttribute('id', 'dish');
 
-        let title = document.createElement('h3');
-        title.textContent = dishes.name;
+        let name = document.createElement('h3');
+        name.textContent = dishes.name;
 
         let ingredients = document.createElement('p');
         ingredients.textContent = dishes.ingredients;
@@ -49,7 +49,7 @@ export function displayMenu() {
         let image = document.createElement('div');
         image.innerHTML = dishes.image;
 
-        dish.appendChild(title);
+        dish.appendChild(name);
         dish.appendChild(ingredients);
         dish.appendChild(image);
         content.appendChild(dish);
