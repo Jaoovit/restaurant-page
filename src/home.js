@@ -9,8 +9,8 @@ export function displayHome() {
     title.textContent = "Babylon's Gardens";
     content.appendChild(title);
 
-    const presentation = document.createElement('div');
+    const presentation = document.createElement('p');
     presentation.setAttribute('id', 'presentation');
-    presentation.innerHTML = '<p>Travel back in time and enjoy fresh fruits and delicacies from the ancient Middle East</p>'
+    presentation.textContent = 'Travel back in time and enjoy fresh fruits and delicacies from the ancient Middle East'
     content.appendChild(presentation);
 }
