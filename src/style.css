@@ -5,6 +5,16 @@ nav {
     padding: 25px;
 }
 
+#imagePlace {
+    border: solid 2px black;
+    background-image: url(http://127.0.0.1:5500/dist/ace7257355d324f2346e.jpg);
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+
 #title {
     display: flex;
     justify-content: center;
@@ -12,6 +22,7 @@ nav {
 
 #presentation {
     display: flex;
+    justify-content: center;
     text-align: center;
     margin-inline: 100px;
 }

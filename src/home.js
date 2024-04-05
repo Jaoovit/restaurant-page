@@ -4,6 +4,10 @@ export function displayHome() {
 
     content.innerHTML = '';
 
+    const imagePlace = document.createElement('div');
+    imagePlace.setAttribute('id', 'imagePlace');
+    content.appendChild(imagePlace)
+
     const title = document.createElement('h1');
     title.setAttribute('id', 'title');
     title.textContent = "Babylon's Gardens";
