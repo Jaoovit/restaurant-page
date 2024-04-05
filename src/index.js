@@ -1,1 +1,5 @@
-console.log('Hello restaurant')
+import { displayHome } from "./home"
+
+const content = document.querySelector('#content')
+
+displayHome()
